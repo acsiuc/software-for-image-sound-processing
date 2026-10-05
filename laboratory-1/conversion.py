@@ -11,7 +11,7 @@ def meters_to_feet(meters):
 meters_to_feet(100)
 
 def bothways_conversion(dBm, watt):
-    option = input("Enter the parameter you want to convert from: 1. dbM -> watt \n 2. watt -> dBm")
+    option = input("Enter the parameter you want to convert from: \n 1. dbM -> watt \n 2. watt -> dBm \n")
 
     if option == '1':
         return (math.pow(10,(dBm/10)))/1000
