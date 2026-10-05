@@ -1,0 +1,6 @@
+pyproject.toml
+src/
+uv.lock
+.python-version
+README.md
+__pycache__/
